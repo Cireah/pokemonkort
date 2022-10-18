@@ -1,0 +1,41 @@
+body
+{
+    padding: 0; 
+    margin: 0; 
+}
+
+.grid {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    align-content: center; 
+    justify-content: center;
+}
+
+.cardFrame {
+    background-color: #fa8ecb;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 1px;
+    font-size: 25px;
+    text-align: left;
+    width: 350px;
+    height: 520px;
+}
+.stats
+{
+    padding-top: 1px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 190px;
+}
+
+.sylveon {
+    height: 220px;
+}
+
+.furret {
+    height: 200px;
+}
